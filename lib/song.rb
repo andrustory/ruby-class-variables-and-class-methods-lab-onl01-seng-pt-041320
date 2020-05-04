@@ -27,8 +27,9 @@ def self.genres
 end
 
 def self.genre_count
-  artist.each do||artist, number| 
-  artist.number
+  genre_count=Hash.new(0)
+  genre.each do||genre, number| 
+  genre.number
 end
 end
 end
