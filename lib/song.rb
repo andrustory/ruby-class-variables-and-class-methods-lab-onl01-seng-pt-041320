@@ -31,3 +31,4 @@ def self.genre_count
   artist.number
 end
 end
+end
