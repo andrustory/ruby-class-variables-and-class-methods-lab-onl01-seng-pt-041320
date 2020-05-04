@@ -27,9 +27,10 @@ def self.genres
 end
 
 def self.genre_count
-  genre_count=Hash.new(0)
-  genre.each do||genre, number| 
-  genre.number
+  genre_count = {}
+  @@genres.each do||genre, number| 
+  genre_count[genre] = number
 end
+genre_count
 end
 end
