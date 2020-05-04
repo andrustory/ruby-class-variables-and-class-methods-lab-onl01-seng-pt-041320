@@ -26,4 +26,8 @@ def self.genres
   @@genres.uniq!
 end
 
+def self.genre_count
+  artist.each do||artist, number| 
+  artist.number
+end
 end
