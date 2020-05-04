@@ -25,16 +25,6 @@ end
 def self.genres
   @@genres.uniq!
 end
-
-
-if genre_count[genre]
-        genre_count[genre] += 1 
-      else
-        genre_count[genre] = 1
-      end
-    end
-    genre_count
-  end
   
 def self.genre_count
   genre_count = {}
@@ -44,7 +34,7 @@ def self.genre_count
   else 
     genre_count[genre] 
   end
-end
+ end
 genre_count
 end
 
